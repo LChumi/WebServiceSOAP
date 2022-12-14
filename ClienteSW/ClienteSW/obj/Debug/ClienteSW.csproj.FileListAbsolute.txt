@@ -1,0 +1,8 @@
+C:\Users\TOSHIBA PC\source\repos\ClienteSW\ClienteSW\bin\Debug\ClienteSW.exe.config
+C:\Users\TOSHIBA PC\source\repos\ClienteSW\ClienteSW\bin\Debug\ClienteSW.exe
+C:\Users\TOSHIBA PC\source\repos\ClienteSW\ClienteSW\bin\Debug\ClienteSW.pdb
+C:\Users\TOSHIBA PC\source\repos\ClienteSW\ClienteSW\obj\Debug\ClienteSW.csproj.AssemblyReference.cache
+C:\Users\TOSHIBA PC\source\repos\ClienteSW\ClienteSW\obj\Debug\ClienteSW.csproj.SuggestedBindingRedirects.cache
+C:\Users\TOSHIBA PC\source\repos\ClienteSW\ClienteSW\obj\Debug\ClienteSW.csproj.CoreCompileInputs.cache
+C:\Users\TOSHIBA PC\source\repos\ClienteSW\ClienteSW\obj\Debug\ClienteSW.exe
+C:\Users\TOSHIBA PC\source\repos\ClienteSW\ClienteSW\obj\Debug\ClienteSW.pdb

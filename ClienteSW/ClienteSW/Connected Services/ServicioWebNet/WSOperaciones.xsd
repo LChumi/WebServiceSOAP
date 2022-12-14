@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ws/" targetNamespace="http://ws/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="loguin" type="tns:loguin" />
+  <xs:element name="loguinResponse" type="tns:loguinResponse" />
+  <xs:element name="procesarPago" type="tns:procesarPago" />
+  <xs:element name="procesarPagoResponse" type="tns:procesarPagoResponse" />
+  <xs:complexType name="procesarPago">
+    <xs:sequence>
+      <xs:element name="deuda" type="xs:int" />
+      <xs:element name="pago" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="procesarPagoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="loguin">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="usario" type="xs:string" />
+      <xs:element minOccurs="0" name="pasword" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="loguinResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
